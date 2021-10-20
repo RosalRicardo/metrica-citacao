@@ -2,7 +2,7 @@ using StatsBase, Distributions, Random, BenchmarkTools
 
 function indice_metrica(p,q)
     """
-    Retorna a divergencia KL entre duas distribuições (calculado com numpy).
+    Retorna a divergencia KL entre duas distribuições.
 
             Parameters:
                     p (array): distribuição de probabilidade

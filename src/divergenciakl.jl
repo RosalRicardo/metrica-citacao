@@ -1,4 +1,4 @@
-using StatsBase, Distributions, Random
+using StatsBase, Distributions, Random, BenchmarkTools
 
 function indice_metrica(p,q)
     """
@@ -28,3 +28,5 @@ function teste_kl()
 end
 
 println(teste_kl())
+
+@btime teste_kl()
